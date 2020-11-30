@@ -1,0 +1,38 @@
+{
+  "name": "olivertwistor/combine-html-tree",
+  "description": "Concatenates multiple files into one file.",
+  "version": "0.1.0",
+  "type": "project",
+  "keywords": ["combine-html-tree", "combine-files"],
+  "homepage": "https://github.com/olivertwistor/combine-html-tree",
+  "readme": "LICENSE",
+  "time": "2020-11-30",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Johan Nilsson",
+      "email": "oliver_twistor@hotmail.com",
+      "homepage": "http://www.olivertwistor.nu",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "oliver_twistor@hotmail.com",
+    "issues": "https://github.com/olivertwistor/combine-html-tree/issues",
+    "source": "https://github.com/olivertwistor/combine-html-tree",
+    "docs": "https://github.com/olivertwistor/combine-html-tree"
+  },
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Olivertwistor\\CombineTree\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Olivertwistor\\CombineTree\\Tests\\": "tests/"
+    }
+  }
+}
